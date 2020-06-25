@@ -1,0 +1,35 @@
+{
+  "name": "dynachar",
+  "version": "0.0.0",
+  "description": "Dynamic Character Encoder and Decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/dynachar.git"
+  },
+  "keywords": [
+    "dynamic",
+    "character",
+    "encoding",
+    "decoding",
+    "binary",
+    "text",
+    "compression"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/dynachar/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/dynachar#readme",
+  "dependencies": {
+    "fast-bin": "^0.1.0",
+    "lodash.countby": "^4.6.0"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0"
+  }
+}
