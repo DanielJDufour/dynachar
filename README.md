@@ -1,3 +1,5 @@
+![Dynamic Character Encoding Image](https://raw.githubusercontent.com/DanielJDufour/dynachar/master/dynachar.png)
+
 # dynachar
 Dynamic Character Encoder and Decoder
 
