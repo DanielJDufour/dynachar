@@ -1,8 +1,7 @@
-const binarize = require('fast-bin/binarize');
-const unbinarize = require('fast-bin/unbinarize');
+const binarize = require("fast-bin/binarize");
+const unbinarize = require("fast-bin/unbinarize");
 
-const decode = ({ char2num, data, nbits, padding, debug=false }) => {
-
+const decode = ({ char2num, data, nbits, padding, debug = false }) => {
     if (debug) console.log("starting dynachar/decode");
 
     // convert characters to 8-bit numbers

@@ -1,9 +1,10 @@
 {
   "name": "dynachar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Dynamic Character Encoder and Decoder",
   "main": "index.js",
   "scripts": {
+    "format": "npx prettier --arrow-parens avoid --tab-width 4 --write *.js",
     "test": "ava"
   },
   "repository": {
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/DanielJDufour/dynachar#readme",
   "dependencies": {
-    "fast-bin": "^0.1.0",
+    "fast-bin": "^0.3.0",
     "lodash.countby": "^4.6.0"
   },
   "devDependencies": {

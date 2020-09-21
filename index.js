@@ -1,4 +1,4 @@
-import encode from './encode';
-import decode from './decode';
+import encode from "./encode";
+import decode from "./decode";
 
 module.exports = { encode, decode };
